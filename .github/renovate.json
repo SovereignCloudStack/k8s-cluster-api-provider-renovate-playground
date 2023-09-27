@@ -12,7 +12,7 @@
       "matchStrings":[
         "default\\s*= \"(?<currentValue>.*?)\"\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n",
         ".\\|\\s*`(?<currentValue>.*?)`\\s*<!-- renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?) -->",
-	"^.*# defaults to \"(?<currentValue>.*?)¸\" of (?<depName>.*?)$"
+	"^.*# defaults to \"(?<currentValue>.*?)\" of (?<depName>.*?)$"
      ],
      "extractVersionTemplate": "^v(?<version>.*)$"
     }
