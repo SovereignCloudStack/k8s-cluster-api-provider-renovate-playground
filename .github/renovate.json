@@ -7,11 +7,12 @@
   "regexManagers":[
     {
       "fileMatch":[
-        "^terraform\\/variables.tf","^doc\\/configuration.md"
+        "^terraform\\/variables.tf","^doc\\/configuration.md","^environments\\/environment-default.tfvars"
       ],
       "matchStrings":[
         "default\\s*= \"(?<currentValue>.*?)\"\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n",
-        ".\\|\\s*`(?<currentValue>.*?)`\\s*<!-- renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?) -->"
+        ".\\|\\s*`(?<currentValue>.*?)`\\s*<!-- renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?) -->",
+	"^.*# defaults to \"(?<currentValue>.*)¸\" of (?<depName>.*)$"
      ],
      "extractVersionTemplate": "^v(?<version>.*)$"
     }
