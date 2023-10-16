@@ -10,7 +10,7 @@
         "^terraform\\/variables.tf","^doc\\/configuration.md","^terraform\\/environments\\/environment-default.tfvars"
       ],
       "matchStrings":[
-	"(?<currentvalue>v?(\\d+\\.){1,2}(x|\\d+))`\\s*<!-- renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?) -->",
+	"`(?<currentvalue>v?(\\d+\\.){1,2}(x|\\d+))`\\s*<!-- renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?) -->",
         "default\\s*= \"(?<currentValue>.*?)\"\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n",
         ".\\|\\s*`(?<currentValue>.*?)`\\s*<!-- renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?) -->",
 	"^.*# defaults to \"(?<currentValue>.*?)\" of (?<depName>.*?)\n"
