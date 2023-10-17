@@ -6,7 +6,7 @@
   "enabledManagers": ["regex"],
   "regexManagers":[
     {
-      "description": "Regex used to match versions without \"v\". Example: capi, capo.",
+      "description": "Regex used to match versions without prefix 'v'. Example: capi, capo.",
       "fileMatch":[
         "^terraform\\/variables.tf","^doc\\/configuration.md","^terraform\\/environments\\/environment-default.tfvars"
       ],
@@ -17,7 +17,7 @@
      "extractVersionTemplate": "^v(?<version>.*)$"
     },
     {
-      "description": "Regex used to match versions with \"v\". Example: calico.",
+      "description": "Regex used to match versions with prefix 'v'. Example: calico.",
       "fileMatch":[
         "^terraform\\/variables.tf","^doc\\/configuration.md","^terraform\\/environments\\/environment-default.tfvars"
       ],
