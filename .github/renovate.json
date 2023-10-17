@@ -6,6 +6,7 @@
   "enabledManagers": ["regex"],
   "regexManagers":[
     {
+      "description": "Test",
       "fileMatch":[
         "^terraform\\/variables.tf","^doc\\/configuration.md","^terraform\\/environments\\/environment-default.tfvars"
       ],
