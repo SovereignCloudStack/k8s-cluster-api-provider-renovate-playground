@@ -6,7 +6,7 @@
   "enabledManagers": ["regex"],
   "regexManagers":[
     {
-      "description": "# TODO: write an understandable description",
+      "description": "Regex used to match versions without \"v\".",
       "fileMatch":[
         "^terraform\\/variables.tf","^doc\\/configuration.md","^terraform\\/environments\\/environment-default.tfvars"
       ],
@@ -17,6 +17,7 @@
      "extractVersionTemplate": "^v(?<version>.*)$"
     },
     {
+      "description": "Regex used to match versions without \"v\".",
       "fileMatch":[
         "^terraform\\/variables.tf","^doc\\/configuration.md","^terraform\\/environments\\/environment-default.tfvars"
       ],
