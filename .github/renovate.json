@@ -20,7 +20,8 @@
         "^terraform\\/variables.tf","^doc\\/configuration.md","^terraform\\/environments\\/environment-default.tfvars"
       ],
       "matchStrings":[
-	"`(?<currentValue>v(\\d+\\.){1,2}(x|\\d+))`\\s*<!-- renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?) -->"
+	"`(?<currentValue>v(\\d+\\.){1,2}(x|\\d+))`\\s*<!-- renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?) -->",
+        "default\\s*= \"(?<currentValue>v(\\d+\\.){1,2}(x|\\d+))\"\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n"
      ]
     }
   ]
