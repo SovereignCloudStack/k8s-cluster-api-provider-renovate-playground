@@ -11,8 +11,7 @@
       ],
       "matchStrings":[
 	"`(?<currentValue>(\\d+\\.){1,2}(x|\\d+))`\\s*<!-- renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?) -->",
-        "default\\s*= \"(?<currentValue>.*?)\"\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n",
-	"^.*# defaults to \"(?<currentValue>.*?)\" of (?<depName>.*?)\n"
+        "default\\s*= \"(?<currentValue>(\\d+\\.){1,2}(x|\\d+))\"\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n"
      ],
      "extractVersionTemplate": "^v(?<version>.*)$"
     },
