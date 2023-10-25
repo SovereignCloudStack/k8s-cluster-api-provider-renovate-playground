@@ -3,8 +3,8 @@
   "gitAuthor": "SCS Renovate Bot <renovatebot@scs.community>",
   "dependencyDashboard": "true",
   "commitMessagePrefix": "renovate",
-  "enabledManagers": ["regex", "terraform"],
-  "managers": [
+  "enabledManagers": [
+    "regex",
     "terraform": {
       "depTypes": ["provider"]
     }
