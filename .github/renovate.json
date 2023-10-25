@@ -5,7 +5,7 @@
   "commitMessagePrefix": "renovate",
   "enabledManagers": ["regex", "terraform"],
   "terraform": {
-    "depTypes": ["provider"]
+    "depTypes": ["required_provider"]
   },
   "regexManagers":[
     {
