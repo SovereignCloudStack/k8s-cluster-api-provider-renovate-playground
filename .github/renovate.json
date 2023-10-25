@@ -3,7 +3,7 @@
   "gitAuthor": "SCS Renovate Bot <renovatebot@scs.community>",
   "dependencyDashboard": "true",
   "commitMessagePrefix": "renovate",
-  "enabledManagers": ["regex", "Terraform"],
+  "enabledManagers": ["regex", "terraform"],
   "regexManagers":[
     {
       "description": "Regex used to match versions without prefix 'v'. Example: capi, capo.",
