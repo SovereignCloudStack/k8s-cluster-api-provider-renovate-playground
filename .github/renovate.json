@@ -4,6 +4,11 @@
   "dependencyDashboard": "true",
   "commitMessagePrefix": "renovate",
   "enabledManagers": ["regex", "terraform"],
+  "managers": [
+    "terraform": {
+      "depTypes": ["provider"]
+    }
+  ],
   "regexManagers":[
     {
       "description": "Regex used to match versions without prefix 'v'. Example: capi, capo.",
