@@ -3,6 +3,7 @@
   "gitAuthor": "SCS Renovate Bot <renovatebot@scs.community>",
   "dependencyDashboard": "true",
   "commitMessagePrefix": "renovate",
+  "labels": ["e2e-quick-test"],
   "enabledManagers": ["regex", "terraform"],
   "terraform": {
     "pinDigests": true
