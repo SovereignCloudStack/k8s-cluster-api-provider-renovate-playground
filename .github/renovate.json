@@ -33,7 +33,8 @@
     {
       "description": "Matcher for versions declared and used in shell scripts.",
       "fileMatch":[
-	"^terraform\\/files\\/bin\\/.*"
+	"^terraform\\/files\\/bin\\/install_k9s.sh",
+	"^terraform\\/files\\/bin\\/install_kind.sh"
       ],
       "matchStrings":[
 	".*_VERSION=(?<currentValue>v(\\d+\\.){1,2}(x|\\d+))\\s# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n"
