@@ -31,12 +31,12 @@
      ]
     },
     {
-      "description": "Matcher for k9s (version declared and used in shell script).",
+      "description": "Matcher for versions declared and used in shell scripts.",
       "fileMatch":[
-	"^terraform\\/files\\/bin\\/install_k9s.sh"
+	"^terraform\\/files\\/bin\\/.*"
       ],
       "matchStrings":[
-	"K9S_VERSION=(?<currentValue>v(\\d+\\.){1,2}(x|\\d+))\\s# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n"
+	".*_VERSION=(?<currentValue>v(\\d+\\.){1,2}(x|\\d+))\\s# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n"
      ]
     }
   ]
